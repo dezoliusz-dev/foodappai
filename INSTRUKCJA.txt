@@ -1,0 +1,14 @@
+FOODAPP AI — INSTRUKCJA URUCHOMIENIA (GITHUB + CLOUDFLARE PAGES)
+
+1. Wypakuj wszystkie pliki z tej paczki (index.html, manifest.json, sw.js, icon.svg, icon-192.png, icon-512.png) do jednego folderu.
+2. Wrzuć je do nowego repozytorium na GitHubie (np. foodapp-ai) przez GitHub Desktop (Commit -> Push).
+3. Na Cloudflare Pages (dash.cloudflare.com -> Workers & Pages -> Create -> Pages -> Connect to Git):
+   - Wybierz repozytorium foodapp-ai
+   - Framework preset: None
+   - Build command: (zostaw puste)
+   - Build output directory: / (albo zostaw puste)
+   - Kliknij Save and Deploy.
+4. Otwórz wygenerowany link *.pages.dev w Chrome na telefonie -> Menu (3 kropki) -> Dodaj do ekranu głównego / Zainstaluj aplikację.
+5. Opcjonalnie (do wbudowanego generatora AI w apce):
+   - Wejdź na https://aistudio.google.com/apikey -> utwórz klucz API.
+   - Wklej go w aplikacji w zakładce Ustawienia -> kliknij "Pobierz listę modeli z klucza" -> Zapisz.
